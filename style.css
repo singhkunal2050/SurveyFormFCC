@@ -45,8 +45,18 @@ input{
     margin:2px auto;
 }
 
+[type="radio"],[type="checkbox"]{
+    width: 10%;
+}
+
+[type="submit"]:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+
+}
+
 [type="submit"]{
-    width:60%;
+    width:100%;
     background-color: rgb(0, 214, 46);
     border: rgb(115, 255, 96) 2px solid;
     color:rgb(3, 27, 0);
@@ -63,7 +73,7 @@ textarea{
 .form-groups{
     margin:20px;
     padding: 10px;
-    border: deeppink 2px solid;
+    /* border: deeppink 2px solid; */
 }
 
 
