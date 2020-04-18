@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>SurveyFormFCC</title>
 </head>
 <body>
-    
+    <header>
+        <h3 id="title">
+            KSR Collabaration Form
+        </h3>
+    </header>
+
+    <main>
+        <p id="description">
+            Hello!! Here is a chance to connect with singhkunal2050 and collaborate with him.
+        </p>
+
+        <form  id="survey-form" action="#" method="POST">
+            <legend>Survey Form</legend>
+           
+            <label for="name" id="name-label">
+                Name <input placeholder="Enter your name" type="text" name="name" id="name" required>
+            </label><br>
+           
+            <label for="email" id="email-label">
+                Email <input placeholder="Enter your mail" type="email" name="email" id="email" required>
+            </label><br>
+           
+            <label for="number" id="number-label">
+                Number <input placeholder="Enter your number" type="number" name="number" id="number" min="10" max="99" required>
+            </label><br>            
+           
+            <label for="interest">
+                Please Select an Interest
+                <select name="interest" id="interest">
+                    <option id="dropdown" value="coding">Coding</option>
+                    <option id="dropdown" value="reading">Reading</option>
+                    <option id="dropdown" value="dancing">Dancing</option>
+                    <option id="dropdown" value="playing">Playing</option>
+                </select>
+            </label><br>
+
+
+        </form>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
