@@ -31,6 +31,7 @@ form{
     margin: 10px auto 10px auto ;
     /* text-align: center; */
     justify-items: center;
+    background-color: rgba(97, 93, 95 , 0.4);
 }
 
 
@@ -85,9 +86,5 @@ textarea{
     padding: 10px;
     /* border: deeppink 2px solid; */
 }
-
-
-#survey-form{
-    background-color: rgba(97, 93, 95 , 0.4);
 
 }
