@@ -19,38 +19,76 @@
         </p>
 
         <form  id="survey-form" action="#" method="POST">
-            <legend>Survey Form</legend>
+            <label>Survey Form</label>
            
-            <label for="name" id="name-label">
-                Name <input placeholder="Enter your name" type="text" name="name" id="name" required>
-            </label><br>
+            <div class="form-groups">
+                <label for="name" id="name-label">Name</label>
+                <input placeholder="Enter your name" type="text" name="name" id="name" required>       
+            </div>
+            
+            <div class="form-groups">
+                <label for="email" id="email-label">Email</label>
+                <input placeholder="Enter your mail" type="email" name="email" id="email" required>
+            </div>
            
-            <label for="email" id="email-label">
-                Email <input placeholder="Enter your mail" type="email" name="email" id="email" required>
-            </label><br>
-           
-            <label for="number" id="number-label">
-                Number <input placeholder="Enter your number" type="number" name="number" id="number" min="10" max="99" required>
-            </label><br>            
-           
-            <label for="interest">
-                Please Select an Interest
+            <div class="form-groups">
+                <label for="number" id="number-label">Number </label>
+                <input placeholder="Enter your number" type="number" name="number" id="number" min="10" max="99" required>
+            </div>            
+
+            <div class="form-groups">
+                <label for="interest">
+                    Please Select an Interest
+                </label>
                 <select name="interest" id="interest">
                     <option id="dropdown" value="coding">Coding</option>
                     <option id="dropdown" value="reading">Reading</option>
                     <option id="dropdown" value="dancing">Dancing</option>
                     <option id="dropdown" value="playing">Playing</option>
                 </select>
-            </label><br>
+            </div>
+            
+            <div class="form-groups">
+                <label for="year">
+                    Select Year 
+                </label> 
+                <label>FY<input type="radio" name="year" value="FY"></label>
+                <label>SY<input type="radio" name="year" value="SY"></label>
+                <label>TY<input type="radio" name="year" value="TY"></label>
+                <label>M1<input type="radio" name="year" value="M1"></label>
+                <label>M2<input type="radio" name="year" value="M2"></label>
+            </div>
 
+            <div class="form-groups">
+                <label for="languages">
+                    Select known Languages 
+                </label> 
+              
+                <label>C<input type="checkbox" name="c" value="c" ></label>
+                <label>C++<input type="checkbox" name="cpp" value="cpp"></label>
+                <label>Java<input type="checkbox" name="java"value="java"></label>
+                <label>PHP<input type="checkbox" name="php" value="php"></label>
+            </div>
 
+            <div class="form-groups">
+                <label for="feedback">
+                    Please Share a Feedback
+                </label> 
+                <textarea name="feedback" id="feedback"placeholder="loved the idea...."></textarea>
+            </div>
+            
+            <div class="form-groups">
+                <label for="submit">
+                    <input type="submit" value="submit" id="submit">    
+                </label>
+            </div>
         </form>
 
 
+    <footer>
+        
+    </footer>
 
     </main>
-    <footer>
-
-    </footer>
 </body>
 </html>
