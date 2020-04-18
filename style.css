@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Itim);
 
 body{
-    background: linear-gradient(199deg,#ff8282,#ffd48a,#ffff83) ;
+    /* background: linear-gradient(199deg,#ff8282,#ffd48a,#ffff83) ; */
     background-size: cover;
-    background-size: auto 2000px;
-    /* background-image: repeating-linear-gradient(red,green); */
+    background-size: auto 900px;
+    background-image: url('1.png');
     font-size: 1.4em;
     font-family: 'Itim', cursive;
-    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header h3{
@@ -62,7 +63,16 @@ input{
     color:rgb(3, 27, 0);
     padding: 4px;
     font-size: 1.2em;
-    margin: 10px auto 10px auto;
+
+}
+
+select{
+    font-size: 1em;
+    padding: 8px 5px;
+}
+
+option{
+    font-size: 1em;
 }
 
 textarea{
@@ -77,4 +87,7 @@ textarea{
 }
 
 
+#survey-form{
+    background-color: rgba(97, 93, 95 , 0.4);
 
+}
